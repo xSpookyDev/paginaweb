@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="tw-dark">
+<html lang="es" class="tw-dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,12 +12,12 @@
     />
     <meta
       name="keywords"
-      content="AskuWebs, desarrollo web, aplicaciones, diseño web, soluciones digitales"
+      content="desarrollo web, diseño web, aplicaciones web, páginas web profesionales, desarrollo de software, servicios web, diseño responsive, SEO, hosting web, mantenimiento web"
     />
     <meta name="robots" content="index, follow" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.askuwebs.com/" />
+    <link rel="canonical" href="https://asku-webs.vercel.app/" />
 
     <!-- Icono del sitio -->
     <link
@@ -27,6 +27,7 @@
     />
 
     <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="es_ES" />
     <meta
       property="og:title"
       content="AskuWebs - Desarrollo de Páginas Web y Aplicaciones"
@@ -36,10 +37,10 @@
       content="Descubre cómo AskuWebs puede transformar tu presencia online con soluciones digitales a medida."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.askuwebs.com/" />
+    <meta property="og:url" content="https://asku-webs.vercel.app/" />
     <meta
       property="og:image"
-      content="https://www.askuwebs.com/assets/logo/buho.svg"
+      content="https://asku-webs.vercel.app/assets/logo/buho.svg"
     />
 
     <!-- Twitter Card -->
@@ -54,7 +55,7 @@
     />
     <meta
       name="twitter:image"
-      content="https://www.askuwebs.com/assets/logo/buho.svg"
+      content="https://asku-webs.vercel.app/assets/logo/buho.svg"
     />
 
     <!-- Hojas de estilo -->
@@ -88,11 +89,16 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "AskuWebs",
-        "url": "https://www.askuwebs.com",
+        "url": "https://asku-webs.vercel.app/",
+        "description": "Desarrollo de páginas web y aplicaciones personalizadas",
         "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://www.askuwebs.com/?s={search_term_string}",
-          "query-input": "required name=search_term_string"
+          "@type": "ContactAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "mailto:askudev7@gmail.com",
+            "description": "Correo de contacto"
+          },
+          "name": "Contactar"
         }
       }
     </script>
@@ -150,7 +156,7 @@
             aria-label="Contactanos por WhatsApp"
             class="btn tw-flex tw-gap-3 tw-px-3 tw-py-2 tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2"
           >
-            <span>Hablemos</span>
+            <span>Contáctanos</span>
             <i class="bi bi-arrow-right"></i>
           </a>
         </div>
@@ -164,7 +170,7 @@
     </header>
 
     <section
-      class="hero-section tw-relative tw-mt-20 tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-lg:tw-mt-[100px]"
+      class="hero-section tw-relative tw-mt-20 tw-flex tw-min-h-[100vh] tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-mt-[100px]"
       id="hero-section"
     >
       <!-- video container -->
@@ -253,10 +259,11 @@
             </button>
 
             <a
-              class="btn tw-group max-lg:!tw-w-[160px] tw-flex tw-gap-2 tw-shadow-lg !tw-w-[170px] !tw-rounded-xl !tw-py-4 max-lg:!tw-py-2 tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
-              href="#"
+              href="https://wa.me/+56936935789?text=Hola!%20Me%20gustaría%20consultar%20sobre%20sus%20servicios"
+              target="_blank"
+              class="btn tw-group max-lg:!tw-w-[160px] tw-flex tw-gap-2 tw-mt-10"
             >
-              <span>Contactanos</span>
+              <span>Contáctanos</span>
               <i
                 class="bi bi-arrow-right group-hover:tw-translate-x-1 tw-duration-300"
               ></i>
@@ -352,7 +359,7 @@
                   eficazmente con tu audiencia.
                 </p>
                 <div class="tw-flex tw-items-center tw-gap-2 tw-mt-auto">
-                  <span>Hablemos</span>
+                  <span>Contáctanos</span>
                   <i
                     class="bi bi-arrow-right tw-transform tw-transition-transform tw-duration-300 group-hover/card:tw-translate-x-2"
                   ></i>
@@ -372,8 +379,8 @@
                 >
                   <img
                     src="./assets/images/home/mobilediseno.jpg"
-                    alt="API"
-                    class="tw-w-full tw-h-auto tw-object-contain"
+                    alt="Diseño web móvil responsive"
+                    class="tw-w-full tw-h-full tw-object-cover"
                   />
                   <!-- <i class="bi bi-grid-1x2-fill"></i> -->
                 </div>
@@ -387,7 +394,7 @@
                   negocio y conectar con tus clientes en cualquier lugar.
                 </p>
                 <div class="tw-flex tw-items-center tw-gap-2 tw-mt-auto">
-                  <span>Hablemos</span>
+                  <span>Contáctanos</span>
                   <i
                     class="bi bi-arrow-right tw-transform tw-transition-transform tw-duration-300 group-hover/card:tw-translate-x-2"
                   ></i>
@@ -407,8 +414,8 @@
                 >
                   <img
                     src="./assets/images/home/soporteweb.jpg"
-                    class="tw-w-full tw-h-auto tw-object-contain"
-                    alt="Prebuilt integrations"
+                    alt="Soporte técnico web profesional"
+                    class="tw-w-full tw-h-full tw-object-cover"
                   />
                 </div>
                 <h2 class="tw-text-3xl max-md:tw-text-2xl tw-font-medium">
@@ -422,7 +429,7 @@
                   listo para crecer.
                 </p>
                 <div class="tw-flex tw-items-center tw-gap-2 tw-mt-auto">
-                  <span>Hablemos</span>
+                  <span>Contáctanos</span>
                   <i
                     class="bi bi-arrow-right tw-transform tw-transition-transform tw-duration-300 group-hover/card:tw-translate-x-2"
                   ></i>
@@ -466,7 +473,7 @@
                   negocio.
                 </p>
                 <div class="tw-flex tw-items-center tw-gap-2 tw-mt-auto">
-                  <span>Hablemos</span>
+                  <span>Contáctanos</span>
                   <i
                     class="bi bi-arrow-right tw-transform tw-transition-transform tw-duration-300 group-hover/card:tw-translate-x-2"
                   ></i>
@@ -660,11 +667,12 @@
 
         <a
           href="https://wa.me/56920776371?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20ofertas%20exclusivas.%20¿Podrían%20darme%20más%20información?"
+          target="_blank"
           class="reveal-up tw-group tw-shadow-xl btn tw-flex tw-gap-2 tw-mt-10"
         >
-          <span>Hablemos!</span>
+          <span>Contáctanos!</span>
           <i
-            class="bi bi-arrow-right tw-duration-300 group-hover:tw-translate-x-1"
+            class="bi bi-arrow-right group-hover:tw-translate-x-1 tw-duration-300"
             id="pricing"
           ></i>
         </a>
@@ -1075,25 +1083,9 @@
           </a>
           <!-- <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div> -->
           <div class="tw-flex tw-gap-4 tw-text-lg">
-            <a
-              href="https://www.facebook.com/profile.php?id=61573862982487"
-              aria-label="Facebook"
-            >
-              <i class="bi bi-facebook"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/askuwebs/"
-              aria-label="Instagram"
-            >
-              <i class="bi bi-instagram"></i>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/asku-dev-134878356/"
-              aria-label="Linkedin"
-            >
-              <i class="bi bi-linkedin"></i>
-            </a>
+            <a href="https://wa.me/+56936935789?text=Hola!%20Me%20gustaría%20consultar%20sobre%20sus%20servicios" target="_blank" class="footer-link">WhatsApp</a>
+            <a href="mailto:askudev7@gmail.com" class="footer-link">Email</a>
+            <a href="tel:+56936935789" class="footer-link">Teléfono</a>
           </div>
         </div>
 
