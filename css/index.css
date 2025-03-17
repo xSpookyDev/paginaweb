@@ -145,10 +145,18 @@ hr{
 .gradient-text{
     background: rgb(215,215,215);
     background: linear-gradient(90deg, rgba(215,215,215,1) 18%, rgba(136,136,136,1) 71%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.purple-text {
+    color: #7e22ce !important; /* Tailwind purple-700 */
+}
+
+.dark .purple-text {
+    color: #a855f7 !important; /* Tailwind purple-500 */
+}
 
 .purple-bg-grad{
     background: rgb(126,34,206);
@@ -182,10 +190,11 @@ hr{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
 .btn:hover{
-
+    transform: translateY(-2px);
 }
 
 .btn:disabled{
@@ -222,6 +231,23 @@ hr{
     border-radius: 25px;
 }
 
+/* Estilos para el scrollbar del modal */
+#terms-modal .tw-prose::-webkit-scrollbar {
+    width: 8px;
+}
+
+#terms-modal .tw-prose::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#terms-modal .tw-prose::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    border-radius: 20px;
+}
+
+.dark #terms-modal .tw-prose::-webkit-scrollbar-thumb {
+    background-color: #6b7280;
+}
 
 /* ---------------- dropdown --------------------- */
 .dropdown {
