@@ -125,7 +125,7 @@ function closeVideo(){
 
 }
 
-const faqAccordion = document.querySelectorAll('.faq-accordion')
+
 
 
 

@@ -28,3 +28,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+      function openTermsModal(event) {
+        event.preventDefault();
+        document.getElementById("terms-modal").classList.remove("tw-hidden");
+      }
+
+      function closeTermsModal() {
+        document.getElementById("terms-modal").classList.add("tw-hidden");
+      }
+
+      function openPrivacyModal(event) {
+        event.preventDefault();
+        document.getElementById("privacy-modal").classList.remove("tw-hidden");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closePrivacyModal() {
+        document.getElementById("privacy-modal").classList.add("tw-hidden");
+        document.body.style.overflow = "auto";
+      }
