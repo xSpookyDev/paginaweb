@@ -5,58 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Título y descripción optimizados -->
-    <title>AskuWebs - Desarrollo de Páginas Web y Aplicaciones</title>
+    <title>
+      AskuWebs - Desarrollo de Páginas Web y Aplicaciones | Soluciones Digitales
+    </title>
     <meta
       name="description"
-      content="AskuWebs es tu aliado en el desarrollo de páginas web y aplicaciones personalizadas. Creamos soluciones digitales a medida para potenciar tu negocio."
+      content="Especialistas en desarrollo web profesional. Creamos páginas web responsive, aplicaciones personalizadas y brindamos servicios de SEO. ¡Potencia tu negocio online!"
     />
     <meta
       name="keywords"
-      content="desarrollo web, diseño web, aplicaciones web, páginas web profesionales, desarrollo de software, servicios web, diseño responsive, SEO, hosting web, mantenimiento web"
+      content="desarrollo web Chile, diseño web responsive, aplicaciones web personalizadas, SEO profesional, e-commerce, landing pages, desarrollo frontend, backend, React, WordPress"
     />
-    <meta name="robots" content="index, follow" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="author" content="AskuWebs" />
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="language" content="es" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://asku-webs.vercel.app/" />
 
-    <!-- Icono del sitio -->
-    <link
-      rel="shortcut icon"
-      href="./assets/logo/buho.svg"
-      type="image/x-icon"
-    />
+    <!-- Preload recursos críticos para performance -->
+    <link rel="preload" href="css/tailwind-build.css" as="style" />
+    <link rel="preload" href="css/index.css" as="style" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:locale" content="es_ES" />
+    <!-- Iconos mejorados para múltiples dispositivos -->
+    <link rel="icon" type="image/svg+xml" href="./assets/logo/buho.svg" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/logo/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/logo/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/logo/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/logo/site.webmanifest" />
+
+    <!-- Open Graph / Facebook mejorado -->
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="AskuWebs" />
     <meta
       property="og:title"
-      content="AskuWebs - Desarrollo de Páginas Web y Aplicaciones"
+      content="AskuWebs - Desarrollo Web Profesional | Aplicaciones Personalizadas"
     />
     <meta
       property="og:description"
-      content="Descubre cómo AskuWebs puede transformar tu presencia online con soluciones digitales a medida."
+      content="Transformamos ideas en experiencias digitales excepcionales. Desarrollo web, aplicaciones a medida y estrategias SEO que impulsan tu negocio."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://asku-webs.vercel.app/" />
     <meta
       property="og:image"
-      content="https://asku-webs.vercel.app/assets/logo/buho.svg"
+      content="https://asku-webs.vercel.app/assets/images/og-image.jpg"
     />
+    <meta
+      property="og:image:alt"
+      content="AskuWebs - Desarrollo Web Profesional"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter Card mejorado -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@askuwebs" />
+    <meta name="twitter:creator" content="@askuwebs" />
     <meta
       name="twitter:title"
-      content="AskuWebs - Desarrollo de Páginas Web y Aplicaciones"
+      content="AskuWebs - Desarrollo Web y Aplicaciones Personalizadas"
     />
     <meta
       name="twitter:description"
-      content="Transforma tu presencia online con AskuWebs. Especialistas en desarrollo web y aplicaciones personalizadas."
+      content="Especialistas en crear soluciones digitales que destacan. Desarrollo web moderno, aplicaciones escalables y SEO efectivo."
     />
     <meta
       name="twitter:image"
-      content="https://asku-webs.vercel.app/assets/logo/buho.svg"
+      content="https://asku-webs.vercel.app/assets/images/twitter-card.jpg"
     />
+    <meta
+      name="twitter:image:alt"
+      content="AskuWebs - Soluciones Web Profesionales"
+    />
+
+    <!-- Datos estructurados expandidos (JSON-LD) para SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AskuWebs",
+        "url": "https://asku-webs.vercel.app/",
+        "logo": "https://asku-webs.vercel.app/assets/logo/buho.svg",
+        "description": "Empresa especializada en desarrollo de páginas web y aplicaciones personalizadas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CL",
+          "addressRegion": "Región Metropolitana"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+56-9-36935789",
+          "contactType": "customer service",
+          "email": "askudev7@gmail.com",
+          "availableLanguage": "Spanish"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/askuwebs",
+          "https://github.com/askuwebs",
+          "https://instagram.com/askuwebs"
+        ],
+        "service": [
+          {
+            "@type": "Service",
+            "name": "Desarrollo Web",
+            "description": "Creación de sitios web profesionales y responsive"
+          },
+          {
+            "@type": "Service",
+            "name": "Aplicaciones Web",
+            "description": "Desarrollo de aplicaciones web personalizadas"
+          },
+          {
+            "@type": "Service",
+            "name": "SEO y Marketing Digital",
+            "description": "Optimización para motores de búsqueda y estrategias digitales"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Breadcrumb structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://asku-webs.vercel.app/"
+          }
+        ]
+      }
+    </script>
 
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="css/tailwind-build.css" />
@@ -72,7 +176,7 @@
     <!-- Google Analytics / Tag Manager -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+      src="https://www.googletagmanager.com/gtag/js?id=G-L9NQ570TZ9"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -80,28 +184,21 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "G-XXXXXXXXXX");
+      gtag("config", "G-L9NQ570TZ9", {
+        page_title: "Inicio - AskuWebs",
+        page_location: window.location.href,
+        custom_map: { dimension1: "user_type" },
+      });
     </script>
 
-    <!-- Datos estructurados (JSON-LD) para SEO -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "AskuWebs",
-        "url": "https://asku-webs.vercel.app/",
-        "description": "Desarrollo de páginas web y aplicaciones personalizadas",
-        "potentialAction": {
-          "@type": "ContactAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "mailto:askudev7@gmail.com",
-            "description": "Correo de contacto"
-          },
-          "name": "Contactar"
-        }
-      }
-    </script>
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+
+    <!-- DNS prefetch para recursos externos -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
   </head>
 
   <body
@@ -123,7 +220,9 @@
             class="tw-w-8 tw-h-8 max-md:tw-w-7 max-md:tw-h-7 dark:tw-invert"
           />
         </div>
-        <span class="tw-text-2xl tw-font-medium max-md:tw-text-xl font-logo">AskuWebs</span>
+        <span class="tw-text-2xl tw-font-medium max-md:tw-text-xl font-logo"
+          >AskuWebs</span
+        >
       </a>
       <div
         class="collapsible-header animated-collapse max-lg:tw-shadow-md"
@@ -504,11 +603,11 @@
         >
           <div
             class="reveal-up tw-w-[350px] tw-border-[1px] tw-h-[400px] tw-rounded-md tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] max-md:tw-w-[320px] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 service-additional-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/seo.jpg"
@@ -527,11 +626,11 @@
 
           <div
             class="reveal-up tw-w-[350px] max-md:tw-w-[320px] tw-border-[1px] tw-h-[400px] tw-rounded-md tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 service-additional-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/marketing.jpg"
@@ -549,11 +648,11 @@
 
           <div
             class="reveal-up tw-w-[350px] max-md:tw-w-[320px] tw-border-[1px] tw-h-[400px] tw-rounded-lg tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 price-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/emailmarketing.jpg"
@@ -572,11 +671,11 @@
 
           <div
             class="reveal-up tw-w-[350px] max-md:tw-w-[320px] tw-border-[1px] tw-h-[400px] tw-rounded-lg tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 price-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/branding.jpg"
@@ -595,11 +694,11 @@
 
           <div
             class="reveal-up tw-w-[350px] max-md:tw-w-[320px] tw-border-[1px] tw-h-[400px] tw-rounded-lg tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 price-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/redesSociales.jpg"
@@ -618,11 +717,11 @@
 
           <div
             class="reveal-up tw-w-[350px] max-md:tw-w-[320px] tw-border-[1px] tw-h-[400px] tw-rounded-lg tw-place-items-center tw-p-4 tw-bg-[#f2f3f4] dark:tw-bg-[#141414] dark:tw-border-[#1f2123] tw-flex tw-flex-col tw-gap-3 price-card"
-            style="transform-style: preserve-3d; transform: perspective(1500px);"
+            style="transform-style: preserve-3d; transform: perspective(1500px)"
           >
             <div
               class="tw-w-full tw-h-[250px] tw-p-4 tw-rounded-xl tw-backdrop-blur-2xl tw-overflow-hidden tw-flex tw-place-content-center"
-              style="transform: translateZ(50px);"
+              style="transform: translateZ(50px)"
             >
               <img
                 src="./assets/images/home/transformacion-digital.jpg"
@@ -875,7 +974,9 @@
           <div
             class="tw-text-gray-600 dark:tw-text-gray-300 tw-justify-between tw-flex tw-gap-2"
           >
-            <div class="tw-text-gray-800 dark:tw-text-gray-200">Tienda Online</div>
+            <div class="tw-text-gray-800 dark:tw-text-gray-200">
+              Tienda Online
+            </div>
             <div class="tw-text-gray-600 dark:tw-text-gray-400">
               Enero, 17, 2025
             </div>
@@ -1095,7 +1196,12 @@
           </a>
           <!-- <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div> -->
           <div class="tw-flex tw-gap-4 tw-text-lg">
-            <a href="https://wa.me/+56936935789?text=Hola!%20Me%20gustaría%20consultar%20sobre%20sus%20servicios" target="_blank" class="footer-link">WhatsApp</a>
+            <a
+              href="https://wa.me/+56936935789?text=Hola!%20Me%20gustaría%20consultar%20sobre%20sus%20servicios"
+              target="_blank"
+              class="footer-link"
+              >WhatsApp</a
+            >
             <a href="mailto:askudev7@gmail.com" class="footer-link">Email</a>
             <a href="tel:+56936935789" class="footer-link">Teléfono</a>
           </div>
@@ -1116,8 +1222,12 @@
           <div class="tw-flex tw-h-full tw-w-[200px] tw-flex-col tw-gap-4">
             <h2 class="tw-text-xl">Legal</h2>
             <div class="tw-flex tw-flex-col tw-gap-3">
-              <a href="#" onclick="openTermsModal(event)" class="footer-link">Términos de servicio</a>
-              <a href="#" onclick="openPrivacyModal(event)" class="footer-link">Política de privacidad</a>
+              <a href="#" onclick="openTermsModal(event)" class="footer-link"
+                >Términos de servicio</a
+              >
+              <a href="#" onclick="openPrivacyModal(event)" class="footer-link"
+                >Política de privacidad</a
+              >
             </div>
           </div>
         </div>
@@ -1136,97 +1246,233 @@
     </footer>
 
     <!-- Modal de Términos de Servicio -->
-    <div id="terms-modal" class="tw-fixed tw-inset-0 tw-bg-black/20 tw-backdrop-blur-[2px] tw-hidden tw-flex tw-justify-center tw-items-center tw-z-50">
-      <div style="height: 400px;" class="tw-bg-white dark:tw-bg-[#17181b] tw-rounded-lg tw-w-[90%] tw-max-w-lg tw-mx-4 tw-flex tw-flex-col">
+    <div
+      id="terms-modal"
+      class="tw-fixed tw-inset-0 tw-bg-black/20 tw-backdrop-blur-[2px] tw-hidden tw-flex tw-justify-center tw-items-center tw-z-50"
+    >
+      <div
+        style="height: 400px"
+        class="tw-bg-white dark:tw-bg-[#17181b] tw-rounded-lg tw-w-[90%] tw-max-w-lg tw-mx-4 tw-flex tw-flex-col"
+      >
         <div class="tw-p-4 tw-border-b dark:tw-border-gray-700">
           <div class="tw-flex tw-justify-between tw-items-center">
             <h3 class="tw-text-lg tw-font-bold">Términos de Servicio</h3>
-            <button onclick="closeTermsModal()" class="tw-text-gray-500 hover:tw-text-gray-700 dark:tw-text-gray-400 dark:hover:tw-text-gray-200">
+            <button
+              onclick="closeTermsModal()"
+              class="tw-text-gray-500 hover:tw-text-gray-700 dark:tw-text-gray-400 dark:hover:tw-text-gray-200"
+            >
               <i class="bi bi-x-lg"></i>
             </button>
           </div>
         </div>
-        <div style="height: calc(400px - 65px); overflow-y: auto;" class="tw-p-4">
+        <div
+          style="height: calc(400px - 65px); overflow-y: auto"
+          class="tw-p-4"
+        >
           <div class="tw-space-y-4">
             <h4 class="tw-text-xl tw-font-semibold tw-mb-4">1. Definiciones</h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">"Cliente": Persona física o jurídica que contrata nuestros servicios.</li>
-              <li class="tw-mb-2">"Servicio": Desarrollo de sitios web, aplicaciones y servicios relacionados.</li>
-              <li class="tw-mb-2">"Contenido": Textos, imágenes, videos u otro material proporcionado por el Cliente.</li>
+              <li class="tw-mb-2">
+                "Cliente": Persona física o jurídica que contrata nuestros
+                servicios.
+              </li>
+              <li class="tw-mb-2">
+                "Servicio": Desarrollo de sitios web, aplicaciones y servicios
+                relacionados.
+              </li>
+              <li class="tw-mb-2">
+                "Contenido": Textos, imágenes, videos u otro material
+                proporcionado por el Cliente.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">2. Servicios Ofrecidos</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              2. Servicios Ofrecidos
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">Diseño y desarrollo de páginas web y aplicaciones.</li>
-              <li class="tw-mb-2">Mantenimiento y actualización de sitios web.</li>
-              <li class="tw-mb-2">Hosting y configuración de dominios (según contrato adicional).</li>
-              <li class="tw-mb-2">Integración con terceros (APIs, pasarelas de pago, etc.).</li>
+              <li class="tw-mb-2">
+                Diseño y desarrollo de páginas web y aplicaciones.
+              </li>
+              <li class="tw-mb-2">
+                Mantenimiento y actualización de sitios web.
+              </li>
+              <li class="tw-mb-2">
+                Hosting y configuración de dominios (según contrato adicional).
+              </li>
+              <li class="tw-mb-2">
+                Integración con terceros (APIs, pasarelas de pago, etc.).
+              </li>
             </ul>
-            <p class="tw-mb-4">Los servicios se prestan según los términos acordados en el contrato o presupuesto correspondiente.</p>
+            <p class="tw-mb-4">
+              Los servicios se prestan según los términos acordados en el
+              contrato o presupuesto correspondiente.
+            </p>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">3. Propiedad Intelectual</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              3. Propiedad Intelectual
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">El código fuente y diseño desarrollado por AskuWebs pueden estar sujetos a transferencia de derechos según contrato.</li>
-              <li class="tw-mb-2">AskuWebs se reserva el derecho de utilizar frameworks, librerías y componentes de terceros en sus desarrollos.</li>
-              <li class="tw-mb-2">El Cliente garantiza que tiene los derechos sobre el contenido proporcionado para su uso en el proyecto.</li>
+              <li class="tw-mb-2">
+                El código fuente y diseño desarrollado por AskuWebs pueden estar
+                sujetos a transferencia de derechos según contrato.
+              </li>
+              <li class="tw-mb-2">
+                AskuWebs se reserva el derecho de utilizar frameworks, librerías
+                y componentes de terceros en sus desarrollos.
+              </li>
+              <li class="tw-mb-2">
+                El Cliente garantiza que tiene los derechos sobre el contenido
+                proporcionado para su uso en el proyecto.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">4. Pagos y Tarifas</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              4. Pagos y Tarifas
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">Los pagos deben realizarse según los plazos establecidos en la cotización o contrato.</li>
-              <li class="tw-mb-2">Se puede exigir un adelanto antes de iniciar el proyecto.</li>
-              <li class="tw-mb-2">No se realizarán reembolsos una vez entregado el servicio.</li>
-              <li class="tw-mb-2">En caso de mora en el pago, AskuWebs puede suspender los servicios.</li>
+              <li class="tw-mb-2">
+                Los pagos deben realizarse según los plazos establecidos en la
+                cotización o contrato.
+              </li>
+              <li class="tw-mb-2">
+                Se puede exigir un adelanto antes de iniciar el proyecto.
+              </li>
+              <li class="tw-mb-2">
+                No se realizarán reembolsos una vez entregado el servicio.
+              </li>
+              <li class="tw-mb-2">
+                En caso de mora en el pago, AskuWebs puede suspender los
+                servicios.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">5. Responsabilidades del Cliente</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              5. Responsabilidades del Cliente
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">Proporcionar la información y contenidos requeridos para el proyecto.</li>
-              <li class="tw-mb-2">Cumplir con las regulaciones de protección de datos y derechos de autor.</li>
-              <li class="tw-mb-2">No utilizar los servicios de AskuWebs para fines ilegales o no éticos.</li>
+              <li class="tw-mb-2">
+                Proporcionar la información y contenidos requeridos para el
+                proyecto.
+              </li>
+              <li class="tw-mb-2">
+                Cumplir con las regulaciones de protección de datos y derechos
+                de autor.
+              </li>
+              <li class="tw-mb-2">
+                No utilizar los servicios de AskuWebs para fines ilegales o no
+                éticos.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">6. Garantías y Limitaciones</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              6. Garantías y Limitaciones
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">AskuWebs garantiza la entrega del producto según lo acordado.</li>
-              <li class="tw-mb-2">No se garantiza compatibilidad absoluta con todos los dispositivos o navegadores.</li>
-              <li class="tw-mb-2">No somos responsables por fallos en servicios de terceros integrados en los proyectos.</li>
+              <li class="tw-mb-2">
+                AskuWebs garantiza la entrega del producto según lo acordado.
+              </li>
+              <li class="tw-mb-2">
+                No se garantiza compatibilidad absoluta con todos los
+                dispositivos o navegadores.
+              </li>
+              <li class="tw-mb-2">
+                No somos responsables por fallos en servicios de terceros
+                integrados en los proyectos.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">7. Mantenimiento y Soporte</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              7. Mantenimiento y Soporte
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">El mantenimiento y soporte posterior a la entrega pueden estar sujetos a tarifas adicionales.</li>
-              <li class="tw-mb-2">Las modificaciones fuera del alcance inicial del proyecto se cotizarán por separado.</li>
+              <li class="tw-mb-2">
+                El mantenimiento y soporte posterior a la entrega pueden estar
+                sujetos a tarifas adicionales.
+              </li>
+              <li class="tw-mb-2">
+                Las modificaciones fuera del alcance inicial del proyecto se
+                cotizarán por separado.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">8. Confidencialidad</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              8. Confidencialidad
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">Toda la información compartida entre el Cliente y AskuWebs será tratada de manera confidencial.</li>
-              <li class="tw-mb-2">Cumplimos con las normativas vigentes de protección de datos (GDPR, CCPA, u otras aplicables).</li>
+              <li class="tw-mb-2">
+                Toda la información compartida entre el Cliente y AskuWebs será
+                tratada de manera confidencial.
+              </li>
+              <li class="tw-mb-2">
+                Cumplimos con las normativas vigentes de protección de datos
+                (GDPR, CCPA, u otras aplicables).
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">9. Resolución de Disputas</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              9. Resolución de Disputas
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">En caso de disputa, ambas partes se comprometen a intentar resolverlo de manera amistosa.</li>
-              <li class="tw-mb-2">Si no se llega a un acuerdo, se someterá a la jurisdicción de los tribunales correspondientes.</li>
+              <li class="tw-mb-2">
+                En caso de disputa, ambas partes se comprometen a intentar
+                resolverlo de manera amistosa.
+              </li>
+              <li class="tw-mb-2">
+                Si no se llega a un acuerdo, se someterá a la jurisdicción de
+                los tribunales correspondientes.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">10. Propiedad del Diseño</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              10. Propiedad del Diseño
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">El diseño y la estructura visual del sitio web creado por AskuWebs son de nuestra propiedad intelectual, a menos que se acuerde lo contrario por escrito.</li>
-              <li class="tw-mb-2">Se otorga al Cliente una licencia de uso no exclusiva del diseño entregado.</li>
-              <li class="tw-mb-2">Cualquier reproducción, modificación o redistribución del diseño requerirá la autorización previa de AskuWebs.</li>
+              <li class="tw-mb-2">
+                El diseño y la estructura visual del sitio web creado por
+                AskuWebs son de nuestra propiedad intelectual, a menos que se
+                acuerde lo contrario por escrito.
+              </li>
+              <li class="tw-mb-2">
+                Se otorga al Cliente una licencia de uso no exclusiva del diseño
+                entregado.
+              </li>
+              <li class="tw-mb-2">
+                Cualquier reproducción, modificación o redistribución del diseño
+                requerirá la autorización previa de AskuWebs.
+              </li>
             </ul>
 
-            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">11. Cambios y Modificaciones</h4>
+            <h4 class="tw-text-xl tw-font-semibold tw-mb-4">
+              11. Cambios y Modificaciones
+            </h4>
             <ul class="tw-mb-6 tw-list-disc tw-pl-6">
-              <li class="tw-mb-2">El Cliente podrá solicitar cambios o modificaciones al proyecto durante el proceso de desarrollo, siempre dentro del alcance inicial acordado.</li>
-              <li class="tw-mb-2">Las modificaciones que excedan el alcance original serán consideradas como trabajos adicionales y se cotizarán por separado.</li>
-              <li class="tw-mb-2">AskuWebs se reserva el derecho de evaluar y aprobar cualquier cambio que pueda afectar la integridad del proyecto.</li>
+              <li class="tw-mb-2">
+                El Cliente podrá solicitar cambios o modificaciones al proyecto
+                durante el proceso de desarrollo, siempre dentro del alcance
+                inicial acordado.
+              </li>
+              <li class="tw-mb-2">
+                Las modificaciones que excedan el alcance original serán
+                consideradas como trabajos adicionales y se cotizarán por
+                separado.
+              </li>
+              <li class="tw-mb-2">
+                AskuWebs se reserva el derecho de evaluar y aprobar cualquier
+                cambio que pueda afectar la integridad del proyecto.
+              </li>
             </ul>
 
-            <div class="tw-mt-8 tw-text-center tw-text-gray-600 dark:tw-text-gray-400">
-              <p>Si tienes dudas sobre estos términos, contáctanos en <a href="mailto:askudev7@gmail.com" class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline">askudev7@gmail.com</a></p>
+            <div
+              class="tw-mt-8 tw-text-center tw-text-gray-600 dark:tw-text-gray-400"
+            >
+              <p>
+                Si tienes dudas sobre estos términos, contáctanos en
+                <a
+                  href="mailto:askudev7@gmail.com"
+                  class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline"
+                  >askudev7@gmail.com</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -1234,92 +1480,189 @@
     </div>
 
     <!-- Modal de Políticas de Privacidad -->
-    <div id="privacy-modal" class="tw-fixed tw-inset-0 tw-bg-black/20 tw-backdrop-blur-[2px] tw-hidden tw-flex tw-justify-center tw-items-center tw-z-50">
-      <div style="height: 400px;" class="tw-bg-white dark:tw-bg-[#17181b] tw-rounded-lg tw-w-[90%] tw-max-w-lg tw-mx-4 tw-flex tw-flex-col">
+    <div
+      id="privacy-modal"
+      class="tw-fixed tw-inset-0 tw-bg-black/20 tw-backdrop-blur-[2px] tw-hidden tw-flex tw-justify-center tw-items-center tw-z-50"
+    >
+      <div
+        style="height: 400px"
+        class="tw-bg-white dark:tw-bg-[#17181b] tw-rounded-lg tw-w-[90%] tw-max-w-lg tw-mx-4 tw-flex tw-flex-col"
+      >
         <div class="tw-p-4 tw-border-b dark:tw-border-gray-700">
           <div class="tw-flex tw-justify-between tw-items-center">
             <h3 class="tw-text-lg tw-font-bold">Política de Privacidad</h3>
-            <button onclick="closePrivacyModal()" class="tw-text-gray-500 hover:tw-text-gray-700 dark:tw-text-gray-400 dark:hover:tw-text-gray-200">
+            <button
+              onclick="closePrivacyModal()"
+              class="tw-text-gray-500 hover:tw-text-gray-700 dark:tw-text-gray-400 dark:hover:tw-text-gray-200"
+            >
               <i class="bi bi-x-lg"></i>
             </button>
           </div>
         </div>
-        <div style="height: calc(400px - 65px); overflow-y: auto;" class="tw-p-4">
+        <div
+          style="height: calc(400px - 65px); overflow-y: auto"
+          class="tw-p-4"
+        >
           <div class="tw-space-y-4">
             <div class="tw-text-center tw-mb-6">
               <h3 class="tw-text-xl tw-font-bold tw-mb-2">AskuWebs</h3>
-              <p class="tw-text-gray-600 dark:tw-text-gray-400">Fecha de entrada en vigor: 01/03/2025</p>
+              <p class="tw-text-gray-600 dark:tw-text-gray-400">
+                Fecha de entrada en vigor: 01/03/2025
+              </p>
             </div>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">1. INTRODUCCIÓN</h4>
-              <p>En <strong>AskuWebs</strong>, nos comprometemos a proteger la privacidad de nuestros clientes y usuarios. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos tu información personal cuando utilizas nuestros servicios de desarrollo de páginas web y aplicaciones.</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                1. INTRODUCCIÓN
+              </h4>
+              <p>
+                En <strong>AskuWebs</strong>, nos comprometemos a proteger la
+                privacidad de nuestros clientes y usuarios. Esta Política de
+                Privacidad explica cómo recopilamos, utilizamos y protegemos tu
+                información personal cuando utilizas nuestros servicios de
+                desarrollo de páginas web y aplicaciones.
+              </p>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">2. INFORMACIÓN QUE RECOPILAMOS</h4>
-              <p class="tw-mb-2">Podemos recopilar los siguientes tipos de información:</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                2. INFORMACIÓN QUE RECOPILAMOS
+              </h4>
+              <p class="tw-mb-2">
+                Podemos recopilar los siguientes tipos de información:
+              </p>
               <ul class="tw-list-disc tw-pl-6 tw-space-y-2">
-                <li><strong>Información de contacto</strong>: Nombre, correo electrónico, teléfono y dirección.</li>
-                <li><strong>Datos de facturación</strong>: Información necesaria para procesar pagos y emitir facturas.</li>
-                <li><strong>Información técnica</strong>: Dirección IP, navegador utilizado y datos de interacción con nuestros servicios.</li>
-                <li><strong>Contenido proporcionado por el Cliente</strong>: Textos, imágenes y otros materiales necesarios para el desarrollo de los proyectos.</li>
+                <li>
+                  <strong>Información de contacto</strong>: Nombre, correo
+                  electrónico, teléfono y dirección.
+                </li>
+                <li>
+                  <strong>Datos de facturación</strong>: Información necesaria
+                  para procesar pagos y emitir facturas.
+                </li>
+                <li>
+                  <strong>Información técnica</strong>: Dirección IP, navegador
+                  utilizado y datos de interacción con nuestros servicios.
+                </li>
+                <li>
+                  <strong>Contenido proporcionado por el Cliente</strong>:
+                  Textos, imágenes y otros materiales necesarios para el
+                  desarrollo de los proyectos.
+                </li>
               </ul>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">3. CÓMO UTILIZAMOS TU INFORMACIÓN</h4>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                3. CÓMO UTILIZAMOS TU INFORMACIÓN
+              </h4>
               <p class="tw-mb-2">Utilizamos la información recopilada para:</p>
               <ul class="tw-list-disc tw-pl-6 tw-space-y-2">
                 <li>Proveer y mejorar nuestros servicios.</li>
                 <li>Gestionar pagos y facturación.</li>
-                <li>Comunicarnos contigo sobre proyectos, soporte y novedades.</li>
+                <li>
+                  Comunicarnos contigo sobre proyectos, soporte y novedades.
+                </li>
                 <li>Cumplir con obligaciones legales.</li>
               </ul>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">4. PROTECCIÓN DE DATOS</h4>
-              <p>Tomamos medidas de seguridad adecuadas para proteger tu información contra accesos no autorizados, alteraciones o divulgaciones.</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                4. PROTECCIÓN DE DATOS
+              </h4>
+              <p>
+                Tomamos medidas de seguridad adecuadas para proteger tu
+                información contra accesos no autorizados, alteraciones o
+                divulgaciones.
+              </p>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">5. COMPARTICIÓN DE INFORMACIÓN</h4>
-              <p class="tw-mb-2">No vendemos ni compartimos tu información personal con terceros, salvo en los siguientes casos:</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                5. COMPARTICIÓN DE INFORMACIÓN
+              </h4>
+              <p class="tw-mb-2">
+                No vendemos ni compartimos tu información personal con terceros,
+                salvo en los siguientes casos:
+              </p>
               <ul class="tw-list-disc tw-pl-6 tw-space-y-2">
-                <li>Proveedores de servicios que nos ayudan a operar nuestra empresa (procesadores de pago, hosting, etc.).</li>
-                <li>Cumplimiento de requisitos legales o solicitud de autoridades.</li>
+                <li>
+                  Proveedores de servicios que nos ayudan a operar nuestra
+                  empresa (procesadores de pago, hosting, etc.).
+                </li>
+                <li>
+                  Cumplimiento de requisitos legales o solicitud de autoridades.
+                </li>
               </ul>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">6. DERECHOS DEL USUARIO</h4>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                6. DERECHOS DEL USUARIO
+              </h4>
               <p class="tw-mb-2">Tienes derecho a:</p>
               <ul class="tw-list-disc tw-pl-6 tw-space-y-2">
                 <li>Acceder, corregir o eliminar tu información personal.</li>
                 <li>Oponerte al uso de tus datos con fines de marketing.</li>
                 <li>Retirar tu consentimiento en cualquier momento.</li>
               </ul>
-              <p class="tw-mt-2">Para ejercer estos derechos, contáctanos en <a href="mailto:askudev7@gmail.com" class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline">askudev7@gmail.com</a></p>
+              <p class="tw-mt-2">
+                Para ejercer estos derechos, contáctanos en
+                <a
+                  href="mailto:askudev7@gmail.com"
+                  class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline"
+                  >askudev7@gmail.com</a
+                >
+              </p>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">7. COOKIES Y TECNOLOGÍAS SIMILARES</h4>
-              <p>Podemos utilizar cookies para mejorar tu experiencia en nuestro sitio web. Puedes configurar tu navegador para rechazar el uso de cookies, aunque esto podría afectar el funcionamiento de algunos servicios.</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                7. COOKIES Y TECNOLOGÍAS SIMILARES
+              </h4>
+              <p>
+                Podemos utilizar cookies para mejorar tu experiencia en nuestro
+                sitio web. Puedes configurar tu navegador para rechazar el uso
+                de cookies, aunque esto podría afectar el funcionamiento de
+                algunos servicios.
+              </p>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">8. RETENCIÓN DE DATOS</h4>
-              <p>Conservamos la información personal solo durante el tiempo necesario para cumplir con los fines establecidos en esta política y con las obligaciones legales.</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                8. RETENCIÓN DE DATOS
+              </h4>
+              <p>
+                Conservamos la información personal solo durante el tiempo
+                necesario para cumplir con los fines establecidos en esta
+                política y con las obligaciones legales.
+              </p>
             </section>
 
             <section class="tw-mb-6">
-              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">9. CAMBIOS EN LA POLÍTICA DE PRIVACIDAD</h4>
-              <p>Podemos actualizar esta Política de Privacidad en cualquier momento. Notificaremos cualquier cambio en nuestro sitio web o por correo electrónico.</p>
+              <h4 class="tw-text-lg tw-font-semibold tw-mb-3">
+                9. CAMBIOS EN LA POLÍTICA DE PRIVACIDAD
+              </h4>
+              <p>
+                Podemos actualizar esta Política de Privacidad en cualquier
+                momento. Notificaremos cualquier cambio en nuestro sitio web o
+                por correo electrónico.
+              </p>
             </section>
 
-            <div class="tw-mt-8 tw-text-center tw-text-gray-600 dark:tw-text-gray-400">
-              <p>Si tienes preguntas sobre nuestra Política de Privacidad, contáctanos en <a href="mailto:askudev7@gmail.com" class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline">askudev7@gmail.com</a></p>
+            <div
+              class="tw-mt-8 tw-text-center tw-text-gray-600 dark:tw-text-gray-400"
+            >
+              <p>
+                Si tienes preguntas sobre nuestra Política de Privacidad,
+                contáctanos en
+                <a
+                  href="mailto:askudev7@gmail.com"
+                  class="tw-text-purple-600 dark:tw-text-purple-400 hover:tw-underline"
+                  >askudev7@gmail.com</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -1338,13 +1681,13 @@
 
       function openPrivacyModal(event) {
         event.preventDefault();
-        document.getElementById('privacy-modal').classList.remove('tw-hidden');
-        document.body.style.overflow = 'hidden';
+        document.getElementById("privacy-modal").classList.remove("tw-hidden");
+        document.body.style.overflow = "hidden";
       }
 
       function closePrivacyModal() {
-        document.getElementById('privacy-modal').classList.add('tw-hidden');
-        document.body.style.overflow = 'auto';
+        document.getElementById("privacy-modal").classList.add("tw-hidden");
+        document.body.style.overflow = "auto";
       }
     </script>
 
@@ -1373,17 +1716,20 @@
     <script src="./scripts/vanilla-tilt.min.js"></script>
     <script>
       // Inicializar Vanilla Tilt en las tarjetas
-      VanillaTilt.init(document.querySelectorAll('.service-additional-card, .price-card'), {
-        max: 15,
-        speed: 400,
-        scale: 1.1,
-        glare: true,
-        "max-glare": 0.5,
-        gyroscope: true,
-        transition: true,
-        easing: "cubic-bezier(.03,.98,.52,.99)",
-        perspective: 1500
-      });
+      VanillaTilt.init(
+        document.querySelectorAll(".service-additional-card, .price-card"),
+        {
+          max: 15,
+          speed: 400,
+          scale: 1.1,
+          glare: true,
+          "max-glare": 0.5,
+          gyroscope: true,
+          transition: true,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          perspective: 1500,
+        }
+      );
     </script>
   </body>
 </html>
