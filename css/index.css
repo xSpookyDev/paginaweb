@@ -447,3 +447,19 @@ hr{
 .font-logo {
     font-family: 'MiFuente', sans-serif;
 }
+
+.typed-cursor {
+  color: #8b5cf6; /* Color púrpura para el cursor */
+  font-weight: normal;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.typed-element {
+  min-height: 1.2em; /* Evita saltos de layout */
+  display: inline-block;
+}
