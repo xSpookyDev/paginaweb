@@ -125,14 +125,6 @@ function closeVideo(){
 
 }
 
-/**
- * Animations
- */
-
-
-
-
-
 const faqAccordion = document.querySelectorAll('.faq-accordion')
 
 
